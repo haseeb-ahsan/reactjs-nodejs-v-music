@@ -2,6 +2,9 @@
 
 vMusic is a simple React application that fetches and displays tracks from the Spotify API. You can search for tracks by keywords and view details such as album cover, artist, release date, and preview the track.
 
+![Screenshot from 2024-05-25 17-18-49](https://github.com/haseeb-ahsan/reactjs-nodejs-v-music/assets/84566594/95701742-154c-46fd-a74d-0773c37588ff)
+
+
 ## Features
 
 - Search for tracks using keywords.
@@ -65,6 +68,4 @@ The application fetches data from the Spotify API using the NoCodeAPI endpoint:
 ```javascript
 let data = await fetch(`https://v1.nocodeapi.com/username/spotify/YekKOsSTueaNLEcw/search?q=${keyword === "" ? "trending" : keyword}&type=track`);
 
-### Screenshots
-![Screenshot from 2024-05-25 17-18-49](https://github.com/haseeb-ahsan/reactjs-nodejs-v-music/assets/84566594/748474e3-1960-4048-bd51-9f6a7264d882)
  
